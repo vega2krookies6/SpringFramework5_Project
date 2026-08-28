@@ -15,6 +15,7 @@ public class HelloBean {
 	@Autowired
 	@Qualifier("stringPrinter")
 	PrinterBean printer;
+	
 	List<String> names;
 
 	public HelloBean() {
