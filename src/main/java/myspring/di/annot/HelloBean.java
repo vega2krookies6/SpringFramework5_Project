@@ -17,7 +17,7 @@ public class HelloBean {
 	@Qualifier("stringPrinter")
 	PrinterBean printer;
 	
-	@Value("#{'${mynames21}'.split(',')}")
+	@Value("#{'${myNameList}'.split(',')}")
 	//@Value("Java,SpringFW,SpringBoot")
 	List<String> names;
 
